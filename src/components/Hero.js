@@ -3,7 +3,7 @@ import "./Hero.css";
 import {
   FaDatabase,
   FaAsterisk,
-  FaFaceBook,
+  FaFacebook,
   FaTwitter,
   FaGithub,
   FaAccusoft,
@@ -30,10 +30,10 @@ function Hero() {
                   <FaDatabase /> Staks
                 </i>
                 <i>
-                  <FaAsterisk /> Staks
+                  <FaAsterisk /> Srat AI
                 </i>
                 <i>
-                  <FaAccusoft /> Staks
+                  <FaAccusoft /> Accusoft
                 </i>
               </div>
             </div>
@@ -44,7 +44,7 @@ function Hero() {
                 <p className="sign-in-txt">sign in with</p>
                 <div className="social-login">
                   <i>
-                    <FaFaceBook size={20} />
+                    <FaFacebook size={20} />
                   </i>
                   <i>
                     <FaTwitter size={20} />
@@ -53,6 +53,25 @@ function Hero() {
                     <FaGithub size={20} />
                   </i>
                 </div>
+                <div className="divider">
+                  <p>
+                    <span>Or</span>
+                  </p>
+                </div>
+                <form action="">
+                  <input type="text" placeholder="Name" />
+                  <input type="email" placeholder="Email" />
+                  <input type="password" placeholder="Password" />
+                  <button>Create your acount</button>
+                </form>
+              </div>
+
+              <div className="form-footer">
+                <p>
+                  By signing UP, you agree to our
+                  <span className="primary-color">Terms, Data Policy</span>
+                  <span className="primary-color">Cookies Policy</span>
+                </p>
               </div>
             </div>
           </div>
