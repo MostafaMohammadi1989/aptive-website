@@ -74,10 +74,69 @@
 .hero .sign-in-txt {
   margin-bottom: 10px;
 }
-
 .social-login {
+  text-align: center;
+}
+
+.social-login i {
   background-color: #fff;
-  padding: 16px 45px 6px 45px;
+  padding: 10px 30px 6px 45px;
   border: 1px solid var(--lightgrey);
   border-radius: 4px;
+  text-align: center;
+}
+
+.divider p {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid var(--lightgrey);
+  line-height: 0.1em;
+  margin: 2rem 0 2rem;
+}
+.divider p span {
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin: 1.2rem 0;
+  padding: 8px;
+  border: 1px solid var(--lightgrey);
+  border-radius: 4px;
+}
+
+.hero .form-footer {
+  border-top: 1px solid var(--lightgrey);
+  background-color: #f8f8f8;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.form-footer p {
+  padding: 1.5rem 2rem;
+}
+
+.form-footer span {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 960px) {
+  .hero {
+    height: auto;
+    width: 100%;
+  }
+
+  .hero .container {
+    padding: 0 1rem;
+  }
+
+  .hero .content {
+    grid-template-columns: 1fr;
+  }
+
+  .hero .col-1 {
+    height: 90vh;
+  }
 }
